@@ -38,7 +38,8 @@ const Navbar = () => {
                     {Links}
                 </ul>
                 </div>
-                <Link to="./"><a className="btn btn-ghost text-[16px] text-purple-500"> <img className='h-8 w-8' src={logo} alt='logo image'/> AppStore.io</a></Link>
+                <Link to="./" className="btn btn-ghost text-[16px] text-purple-500"> 
+                <img className='h-8 w-8' src={logo} alt='logo image'/> AppStore.io</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

@@ -1,0 +1,362 @@
+[
+  {
+    "image": "/public/demo-app (1).webp",
+    "title": "Study Buddy",
+    "companyName": "EduTech Labs",
+    "id": 1,
+    "description": "An intelligent study companion app that helps students create personalized study schedules, set task reminders, track progress with Pomodoro timers, organize subjects with color-coding, and review material using built-in flashcards and spaced repetition.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "image": "/public/demo-app (2).webp",
+    "title": "FitLife",
+    "companyName": "Healthify",
+    "id": 2,
+    "description": "Your complete fitness companion — track workouts, log nutrition and calories, monitor daily steps & active minutes, set personalized goals, follow guided training plans, and view detailed progress analytics with beautiful charts.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "/public/demo-app (3).webp",
+    "title": "NoteMaster",
+    "companyName": "Productive Apps",
+    "id": 3,
+    "description": "A clean, fast, and powerful note-taking app with rich text formatting, markdown support, folders & tags for organization, powerful search, offline access, voice notes, image attachments, and seamless cloud sync across devices.",
+    "size": 30,
+    "reviews": 760,
+    "ratingAvg": 4.6,
+    "downloads": 35,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://cdn.waterstones.com/bookjackets/large/9781/7886/9781788687492.jpg",
+    "title": "Travel Guide",
+    "companyName": "Wander Co",
+    "id": 4,
+    "description": "Plan dream trips with ease — discover hidden gems and popular destinations, build detailed itineraries, save must-visit places, get offline maps, read real traveler reviews, compare flight & hotel prices, and track expenses on the go.",
+    "size": 80,
+    "reviews": 1500,
+    "ratingAvg": 4.2,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "image": "/public/demo-app (5).webp",
+    "title": "Budget Tracker",
+    "companyName": "FinSmart",
+    "id": 5,
+    "description": "Take control of your finances — automatically categorize expenses, set monthly budgets per category, track spending habits with visual reports, set savings goals, get bill reminders, and receive smart insights to improve your money management.",
+    "size": 55,
+    "reviews": 820,
+    "ratingAvg": 4.4,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "/public/demo-app (6).webp",
+    "title": "Language Learner",
+    "companyName": "LinguaTech",
+    "id": 6,
+    "description": "Master new languages through fun, bite-sized interactive lessons — practice speaking with voice recognition, build vocabulary with flashcards, improve grammar with targeted exercises, play mini-games, and track daily streaks for motivation.",
+    "size": 70,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 2,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 640 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1705077031869-51b60754302a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Weather Now",
+    "companyName": "SkyNet Apps",
+    "id": 7,
+    "description": "Stay ahead of the weather — get accurate real-time conditions, hourly & 10-day forecasts, severe weather alerts, radar maps, air quality index, sunrise/sunset times, and highly localized precipitation predictions.",
+    "size": 25,
+    "reviews": 560,
+    "ratingAvg": 4.1,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 170 },
+      { "name": "5 star", "count": 140 }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/61+FjwbQ3gL._AC_UF1000,1000_QL80_.jpg",
+    "title": "Recipe Book",
+    "companyName": "Foodies Hub",
+    "id": 8,
+    "description": "Your personal digital cookbook — browse thousands of delicious recipes with step-by-step photos, save favorites, create shopping lists, adjust servings automatically, explore cuisines from around the world, and discover new dishes based on ingredients you have.",
+    "size": 90,
+    "reviews": 1340,
+    "ratingAvg": 4.5,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://media.sleepcycle.com/image/f=auto,q=75,w=3840,h=1621,fit=crop/2/Skarmavbild-2025-01-27-kl.-12.16.40.png",
+    "title": "Sleep Cycle",
+    "companyName": "RestWell",
+    "id": 9,
+    "description": "Improve your sleep quality with smart tracking — analyzes sleep patterns using phone sensors, wakes you up in the lightest sleep phase, provides detailed sleep statistics, offers relaxation sounds, and gives personalized sleep improvement tips.",
+    "size": 42,
+    "reviews": 1450,
+    "ratingAvg": 4.6,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/91ZUoeJRF2L._UF894,1000_QL80_.jpg",
+    "title": "Habit Forge",
+    "companyName": "GrowEasy",
+    "id": 10,
+    "description": "Build lasting habits with science-backed techniques — create custom habits, set flexible reminders, track streaks, view beautiful progress visuals, join challenges with friends, and get motivational quotes and habit insights.",
+    "size": 38,
+    "reviews": 890,
+    "ratingAvg": 4.4,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFPtwo23KzGPbLm6Ye_YCxafc_VH4YfZYQw&s",
+    "title": "Mindful Moments",
+    "companyName": "CalmSpace",
+    "id": 11,
+    "description": "Reduce stress and increase focus with guided meditations, breathing exercises, body scans, mindful walking sessions, daily calm reminders, progress tracking, and a growing library of soothing nature sounds and talks.",
+    "size": 65,
+    "reviews": 2750,
+    "ratingAvg": 4.8,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1585 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4GnfGFS0fHx_uiNMykzT900LRuos3PI8WaQ&s",
+    "title": "Photo Cleaner",
+    "companyName": "ClearPix",
+    "id": 12,
+    "description": "Free up storage space instantly — smartly detects duplicate photos, blurry shots, screenshots, similar images, old memes, and large videos, then helps you delete them safely with preview and recovery options.",
+    "size": 48,
+    "reviews": 1120,
+    "ratingAvg": 4.3,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQxFv_ehCPZL_aRa8zcrCZidLuHEvxDXx7FHUCQg6gf2jUAcJrO3TK8MABImQqyISJC8H-egblmEd46O5N9ndw79TsJwLDIqcIqUQLgh_g1&usqp=CAc",
+    "title": "Plant Parent",
+    "companyName": "GreenThumb",
+    "id": 13,
+    "description": "Keep your houseplants thriving — identify plants from photos, get personalized care schedules for watering, fertilizing & repotting, set reminders, diagnose plant problems, and join a community of plant lovers.",
+    "size": 52,
+    "reviews": 980,
+    "ratingAvg": 4.5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://assets.lulu.com/cover_thumbs/8/4/849p46v-ebook-shortedge-384.jpg",
+    "title": "Podcast Flow",
+    "companyName": "AudioVibe",
+    "id": 14,
+    "description": "Discover and enjoy podcasts like never before — smart recommendations, offline downloads, variable playback speed, sleep timer, chapter support, transcript search, playlist creation, and cross-device listening sync.",
+    "size": 75,
+    "reviews": 1670,
+    "ratingAvg": 4.6,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 755 }
+    ]
+  },
+  {
+    "image": "https://i5.walmartimages.com/seo/Pen-Gear-Hardcover-Spiral-Daily-Journal-for-Kids-204-Pages-6-42-x-8-Uncoated-Paper_9ec7a748-4d03-4abd-af96-0463ea7976a6.e5f87b7f1d914be71cd76bca837593d9.jpeg",
+    "title": "Daily Journal",
+    "companyName": "Reflectly",
+    "id": 15,
+    "description": "Capture your thoughts and feelings every day — beautiful journaling experience with mood tracking, gratitude prompts, photo memories, insightful statistics about your emotional patterns, password protection, and reflective questions.",
+    "size": 35,
+    "reviews": 2040,
+    "ratingAvg": 4.7,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 680 },
+      { "name": "5 star", "count": 970 }
+    ]
+  },
+  {
+    "image": "https://www.brightec.co.uk/images/Ziffit_hero.jpg",
+    "title": "Quick Scanner",
+    "companyName": "ScanEasy",
+    "id": 16,
+    "description": "Turn your phone into a powerful document scanner — scan receipts, notes, IDs, whiteboards, create PDFs, apply filters, OCR text recognition, batch scanning, cloud upload, and easy sharing options.",
+    "size": 40,
+    "reviews": 1350,
+    "ratingAvg": 4.4,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 585 }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/51+Ys5ncqxL._AC_UF1000,1000_QL80_.jpg",
+    "title": "Music Mood",
+    "companyName": "TuneFlow",
+    "id": 17,
+    "description": "Create the perfect soundtrack for every moment — mood-based playlists, discover new music based on your feelings, activity-based mixes (workout, study, relax), equalizer settings, offline mode, and lyrics display.",
+    "size": 85,
+    "reviews": 1890,
+    "ratingAvg": 4.5,
+    "downloads": 11,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 95 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 805 }
+    ]
+  },
+  {
+    "image": "https://www.saturdaygift.com/wp-content/uploads/Book-Tracker-Templates-Aesthetic-Free-Printables-SaturdayGift.jpg",
+    "title": "Book Tracker",
+    "companyName": "LitShelf",
+    "id": 18,
+    "description": "Organize your reading life — track books you've read/want to read, set reading goals, log progress with pages or percentage, write reviews, get personalized recommendations, join reading challenges, and connect with book lovers.",
+    "size": 58,
+    "reviews": 920,
+    "ratingAvg": 4.6,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 405 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-photo/alarm-clock-with-books-minimal-style_519469-8674.jpg",
+    "title": "Minimal Clock",
+    "companyName": "TimePure",
+    "id": 19,
+    "description": "Beautiful, distraction-free clock & alarm app — elegant analog & digital designs, world clock for multiple cities, sunrise/sunset display, gentle wake-up sounds, bedtime reminders, and widget support for your home screen.",
+    "size": 22,
+    "reviews": 780,
+    "ratingAvg": 4.7,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://images.blinkist.io/images/books/5331a1f43337630007170000/1_1/470.jpg",
+    "title": "Focus Forest",
+    "companyName": "DeepWork",
+    "id": 20,
+    "description": "Stay focused and plant virtual trees while you work — gamified productivity timer, grow a beautiful forest as you complete focus sessions, block distracting apps/websites, track productive hours, and compete on weekly leaderboards.",
+    "size": 49,
+    "reviews": 1560,
+    "ratingAvg": 4.8,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 780 }
+    ]
+  }
+]

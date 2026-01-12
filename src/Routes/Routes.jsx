@@ -14,12 +14,14 @@ export const router = createBrowserRouter([
     children: [
         {
             index: true, 
-            loader: ()=> fetch('Apps.json'),
+            loader: ()=> fetch('apps.json'),
             path: "/",
             Component: Home
         },
         {
-            path: "Apps", Component: Apps
+            loader: ()=> fetch('allApps.json'),
+            path: "Apps", 
+            Component: Apps
         },
         {
             path: "Installation", Component: Installation

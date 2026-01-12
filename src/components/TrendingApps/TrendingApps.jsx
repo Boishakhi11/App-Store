@@ -4,12 +4,12 @@ import { Link } from 'react-router';
 
 
 const TrendingApps = ({data}) => {
-    console.log(data);
+    
     return (
         <div className='mt-20 space-y-4'>
             <h1 className='text-4xl font-bold text-center'>Trending Apps</h1>
             <p className='text-[20px] text-gray-400 text-center'>Explore All Trending Apps on the Market developed by us</p>
-            <Suspense fallback={<p>Apps are loading</p>}>
+            <Suspense fallback={<p className='min-h-screen mx-auto'>Apps are loading</p>}>
                 <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 px-4'>
                     {
                     data.map((eachApp)=> 
