@@ -1,16 +1,80 @@
-# React + Vite
+📱 AppStore — React App Marketplace UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive App Store UI web application built with React that simulates an app marketplace experience. The project demonstrates real-world front-end development practices including routing, state management, dynamic rendering, search filtering, charts, and clean UI design.
 
-Currently, two official plugins are available:
+🚀 Features
+🧱 Layout & Navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Header with logo navigation
 
-## React Compiler
+Active route navigation links (Home, Apps, Installation)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Contribution button linking to GitHub profile
 
-## Expanding the ESLint configuration
+Custom-designed Footer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🏠 Home Page
+
+Banner section with App Store & Play Store redirect buttons
+
+Top Apps section displaying featured applications
+
+“Show All” button navigating to the full apps list
+
+📱 All Apps Page
+
+Displays total number of apps
+
+Live, case-insensitive search by app title
+
+Dynamic filtering with "No App Found" state
+
+Fully responsive grid layout
+
+📊 App Details Page
+
+Detailed app information view
+
+Interactive Install button with success toast
+
+Reviews chart using Recharts
+
+App description section
+
+⚠️ Error Handling
+
+Custom 404 error page for invalid routes
+
+Graceful handling of invalid app IDs
+
+🧰 Technologies Used
+
+React
+
+React Router DOM
+
+Tailwind CSS
+
+Recharts
+
+JavaScript (ES6+)
+
+JSON-based mock API data
+
+📂 Project Purpose
+
+This project demonstrates:
+
+Component-based architecture
+
+Client-side routing
+
+UI state management
+
+Search and filtering logic
+
+Chart integration
+
+Real-world layout structure
+
+Clean and scalable code practices
