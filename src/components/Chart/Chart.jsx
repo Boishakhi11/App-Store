@@ -6,7 +6,7 @@ const Chart = ({ratings}) => {
    //if (!Array.isArray(ratings)) return null;
    const data = [...ratings].reverse();
     return (
-           <div style={{ width: "100%", height: "320px", minHeight: "320px" }}>
+           <div className='w-full h-[350px]'>
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart
                     data={data}

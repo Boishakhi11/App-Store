@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from "../../../public/hero.png"
+import heroImage from "/hero.png"
 
 const TotalCount = () => {
     return (

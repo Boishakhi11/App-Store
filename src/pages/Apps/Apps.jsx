@@ -1,9 +1,18 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useMemo, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import AllApp from '../AllApp/AllApp'
 
 const Apps = () => {
     const apps = useLoaderData();
+    const[searchTerm, setSearchTerm] = useState("");
+
+    const filterApps = useMemo(()=>{
+        const search = searchTerm.trim().toLowerCase();
+
+        return apps.filter((app)=>
+            (app?.title || "").toLowerCase().includes(search)
+        );
+    }, [apps, searchTerm])
   
     return (
         <div className="mt-10 space-y-3.5">
@@ -24,18 +33,25 @@ const Apps = () => {
                         <path d="m21 21-4.3-4.3"></path>
                         </g>
                     </svg>
-                    <input type="search" required placeholder="Search" />
-                </label>
-                
+                    <input 
+                    type="search" 
+                    required placeholder="Search by Title" 
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}/>
+                </label>  
             </div>
+
+            
             <Suspense fallback={<p>Loading Apps</p>}>
                 <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 w-11/12 mx-auto'>
-                    {
-                        apps.map((app)=>
-                        <AllApp 
-                        key={app.id}
-                        app= {app}>
-                        </AllApp>)
+                   {
+                    filterApps.length === 0 ? (
+                        <p>No App Found</p>
+                    ) : (
+                        filterApps.map(app => (
+                        <AllApp key={app.id} app={app} />
+                        ))
+                    )
                     }
                 </div>
             </Suspense>

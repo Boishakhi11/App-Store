@@ -1,6 +1,6 @@
 import React from 'react';
-import ratingIcon from "../../../public/icon-ratings.png";
-import downloadIcon from "../../../public/icon-downloads.png";
+import ratingIcon from "/icon-ratings.png";
+import downloadIcon from "/icon-downloads.png";
 import { Link } from 'react-router';
 
 const AllApp = ({app}) => {
