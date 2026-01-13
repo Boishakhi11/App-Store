@@ -2,11 +2,15 @@ import React from 'react';
 import { LuDownload } from "react-icons/lu";
 import { FaStar, FaThumbsUp } from "react-icons/fa";
 import { useLoaderData, useParams } from 'react-router';
+import Chart from '../../components/Chart/Chart';
 
 const AppDetails = () => {
     const {id} = useParams();
     const allApps= useLoaderData();
-    const singleApp = allApps.find((app) => app.id === parseInt(id));
+    const singleApp = allApps?.find((app) => app.id === parseInt(id));
+
+    if (!singleApp) return <div className="w-10/12 mx-auto">Loading...</div>;
+
     const {image, title, companyName, description, downloads, ratingAvg,ratings,reviews,size,} = singleApp;   
     return (
         <div className='w-10/12 mx-auto space-y-8'>
@@ -45,6 +49,7 @@ const AppDetails = () => {
 
             <div>
                 <h1 className='text-2xl font-semibold'>Ratings</h1>
+                <Chart ratings={ratings}/>
             </div>
 
             <div className='space-y-4'>
