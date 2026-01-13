@@ -15,7 +15,7 @@ const Installation = () => {
             <h1 className="text-4xl font-bold text-center">Your Installed Apps</h1>
             <p className="text-gray-500 text-center">Explore All Apps on the Market developed by us.</p>
              <div className='flex justify-between items-center w-11/12 mx-auto'>
-                <h2 className='font-bold text-2xl'>(20) Apps Found</h2>
+                <h2 className='font-semibold text-2xl'>Apps Found</h2>
                 <input type="text" className="input" placeholder="Sort By Size" list="browsers" />
                     <datalist id="browsers">
                         <option value="High-Low"></option>
