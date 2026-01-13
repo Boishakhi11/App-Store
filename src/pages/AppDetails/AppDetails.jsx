@@ -1,17 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { LuDownload } from "react-icons/lu";
 import { FaStar, FaThumbsUp } from "react-icons/fa";
 import { useLoaderData, useParams } from 'react-router';
 import Chart from '../../components/Chart/Chart';
+import { installedData } from '../../Utility/addToDB';
 
 const AppDetails = () => {
     const {id} = useParams();
     const allApps= useLoaderData();
     const singleApp = allApps?.find((app) => app.id === parseInt(id));
 
-    if (!singleApp) return <div className="w-10/12 mx-auto">Loading...</div>;
-
     const {image, title, companyName, description, downloads, ratingAvg,ratings,reviews,size,} = singleApp;   
+
+    const [install, setInstall] = useState(false);
+
+    const manageInstalled = (id) => {
+        installedData(id);
+    }
+
+    const handleClick = () => {
+        setInstall(true);
+        manageInstalled(id)
+    }
+ 
     return (
         <div className='w-10/12 mx-auto space-y-8'>
             <div className="card lg:card-side bg-base-500 border-gray-400 shadow-2xl p-3">
@@ -42,7 +53,12 @@ const AppDetails = () => {
                         </div>
                     </div>
                     <div className="card-actions justify-between">
-                    <button className="btn btn-success text-white">Install Now ({size}MB)</button>
+                    <button 
+                        onClick={handleClick}
+                        disabled={install}
+                         className={`btn ${install ? "bg-green-300 cursor-not-allowed" : "btn-success"} text-white`}>
+                         {install? "Installed" : `Install Now (${size}MB)`}
+                     </button>
                     </div>
                 </div>
             </div>

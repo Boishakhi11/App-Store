@@ -16,7 +16,7 @@ const Chart = ({ratings}) => {
                     <XAxis type="number" />
                     <YAxis dataKey="name" type="category" width={80} />
                     <Tooltip />
-                    <Bar dataKey="count" fill="#ff8811" barSize={30} />
+                    <Bar dataKey="count" fill="#ff8811" barSize={25} />
                     </BarChart>
                 </ResponsiveContainer>
             </div>
